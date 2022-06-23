@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="doc">
+    <title>
+        Tictactoe
+    </title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="Index.js"></script>
+    </head>
+    <body>
+        <p id="hd" class="hd">TicTacToe</p>
+        <p class="hide">WINNER gets 3 points each GAME. Tied GAME gives 1 point both. First player to reach 15 POINTS takes the match.</p>
+        <section class="stmt">
+            <section class="player">
+                <p id="p1s">Player 1 : 0</p>
+                <p id="p2s">Player 2 : 0</p>
+            </section>
+            <section>
+                <p class="winr" id="ch"></p>
+            </section>
+        </section>
+        <section class="board">
+            <input onclick="switcher('b1')" type="button" value="" id="b1"></input>
+            <input onclick="switcher('b2')" type="button" value="" id="b2"></input>
+            <input onclick="switcher('b3')" type="button" value="" id="b3"></input>
+        </section>
+        <section class="board">
+            <input onclick="switcher('b4')" type="button" value="" id="b4"></input>
+            <input onclick="switcher('b5')" type="button" value="" id="b5"></input>
+            <input onclick="switcher('b6')" type="button" value="" id="b6"></input>
+        </section>
+        <section class="board">
+            <input onclick="switcher('b7')" type="button" value="" id="b7"></input>
+            <input onclick="switcher('b8')" type="button" value="" id="b8"></input>
+            <input onclick="switcher('b9')" type="button" value="" id="b9"></input>
+        </section>
+        <p id="new" class="hovr"><input onclick="reset()" ondblclick="resetgame()" type="button" value="NEW GAME" id="b10"></input></p>
+        <p class="hide">Single click for NEW GAME  and double click for NEW MATCH</p>
+    </body>
+</html>

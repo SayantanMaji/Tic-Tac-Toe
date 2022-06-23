@@ -1,0 +1,94 @@
+.board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+}
+.doc{
+    background-image: url("./Assets/bg.png");
+}
+.board > input{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.winr{
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 0px;
+}
+#p1s{
+    font-size: 40px;
+    font-family: fantasy;
+    margin-right: 90px;
+}
+#p2s{
+    font-size: 40px;
+    font-family: fantasy;
+    margin-left: 90px;
+}
+#hd{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: fantasy;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.stmt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#b10{
+    font-size: 20px;
+    font-family:fantasy;
+    height: 50px;
+    width: 400px;
+}
+.hide{
+    display: none;
+}
+.hovr:hover + .hide{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font: 400;
+}
+.hd:hover + .hide{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font: 400;
+}
+.board > input:hover{
+    background-color:rgba(255, 255, 255, 0.584);
+}
+#b1,#b2,#b3{
+    border-top: 0px;
+}
+#b7,#b8,#b9{
+    border-bottom: 0px;
+}
+#b1,#b4,#b7{
+    border-left: 0px;
+}
+#b3,#b6,#b9{
+    border-right: 0px;
+}

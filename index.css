@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 30px;   
 }
 #b10{
     font-size: 20px;
@@ -91,4 +91,18 @@
 }
 #b3,#b6,#b9{
     border-right: 0px;
+}
+.hd{
+    position: absolute;
+    top: 5px;
+    left: 890px;
+    height: 28px;
+    width: 28px;
+    font-size: 20px;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+}
+#info{
+    font-weight: 900;
 }
